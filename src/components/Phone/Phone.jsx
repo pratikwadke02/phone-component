@@ -1,6 +1,5 @@
 import React from "react";
 import "./Phone.css";
-import Flag from "./flag.png";
 import PhoneInput from "react-phone-input-2";
 import {useState} from "react";
 import 'react-phone-input-2/lib/style.css'
