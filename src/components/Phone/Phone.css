@@ -3,11 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(212, 212, 212);
-    width: 300px;
-    height: 120px;
-    width: 300px;
-    
+    width: 500px;
+    height: 100px;
+    background-color: rgba(177, 175, 173, 0.315);
+    margin: 50px;
 }
 
 .container-input{
@@ -21,38 +20,5 @@
     border-radius: 10px;
 }
 
-.phone{
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 250px;
-}
 
-.country-dropdown{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    padding: 5px;
-}
 
-#phone-input{
-    border:none;
-    outline: none;
-    text-decoration: none;
-    height: 30px;
-    font-size: large;
-    border-left: 0.5px solid rgba(128, 128, 128, 0.527);
-}
-
-#country{
-    border:none;
-    outline: none;
-    text-decoration: none;
-    height: 30px;
-    font-size: large;
-}
-
-#phone-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
